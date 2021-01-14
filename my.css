@@ -1,0 +1,156 @@
+html,body{
+  height: 100%;
+}
+*{margin: 0;}
+.log{
+  height: 100px;
+  width: 150px;
+}
+
+nav{position: fixed;
+top: 0;
+left: 0;
+width:100%;
+height: 100px;
+background: linear-gradient(#FFE0B2 , rgba(0, 0, 255, 0) );
+z-index: 99;}
+
+nav ul{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  margin-right: 20px;
+  list-style: none;
+}
+nav ul li {
+  box-shadow: 0 0 50px;
+  float: right;
+  margin :25px;
+  background-color: rgba(255,224,178,0.4);
+  padding: 17px;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+    transition-duration: 1s;
+}
+
+nav ul li:hover{
+  transform: scale(1.8,1.5) translate(0 , 20px);
+  border-bottom-left-radius: 50px;
+  margin: 0;
+
+}
+.video{
+  width: 100%;
+  margin: 0;
+}
+nav img {
+  margin: 30px;
+}
+.tit1{
+  background-color: #FFB74D;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  padding: 40px 40px 100px 40px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 0 50px;
+}
+.tit2{
+  background-color: #FFB74D;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 70px;
+  padding: 100px 40px 40px 40px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 0 50px;
+}
+iframe{
+  width: 100%;
+  margin-top: 150px;
+}
+.bg{
+  margin-top: 150px;
+  height: 100%;
+  background-image: url('../joinus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tpresent{
+  margin-top: 150px;
+  height: 100%;
+  text-align: justify;
+  font-size: large;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+table {
+  color: #F00B0D;
+  font-size: 25px;
+}
+td{
+  box-shadow: 0 0 20px ;
+  border-radius: 50px;
+  padding: 20px;
+}
+table input , table select{
+  border-radius: 7px;
+  height: 20px;
+  transform: translate(50%, 0 );
+  box-shadow: 0 0 30px #FFB74D;
+}
+.titre_recrut{
+  font-size: 70px;
+  text-align: center;
+  color: #FF070D;
+}
+a{
+  color: #F00B0D;
+}
+a:visited{
+  color: #FF070D;
+}
+#g{
+  font-weight: bold;
+}
+#r{
+  color: #F00B0D;
+}
+#majus{
+  text-transform: uppercase;
+}
+#imgp{
+  text-align: center;
+  margin:-270px;
+}
+.act{
+  margin-top: 150px;
+  height: 60%;
+  margin-left: 25px;
+}
+.pact{
+  border-style: solid;
+  border-radius: 15px;
+  font-weight :bold;
+}
+.p1act{
+text-align: center;
+}
+.p2act{
+  color: #FFB74D;
+}
+.p3act{
+  color: #FF070D;
+  font-style: italic;
+}
+.maps{
+  margin-left: 25px;
+}
+.text-loc{
+  margin-left: 25px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
